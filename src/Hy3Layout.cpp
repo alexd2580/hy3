@@ -1142,8 +1142,6 @@ void Hy3Layout::moveNodeToWorkspace(
 
 		node->parent->recalcSizePosRecursive();
 		node->focus(warp);
-	} else {
-		node->focus(false);
 	}
 }
 
